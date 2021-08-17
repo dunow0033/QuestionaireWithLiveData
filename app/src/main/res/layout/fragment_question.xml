@@ -8,7 +8,7 @@
         android:id="@+id/question_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What is the capital of Florida?"
+        android:text="@string/what_is_the_capital_of_florida"
         android:textAppearance="?textAppearanceHeadline5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Miami"
+        android:enabled="false"
+        android:text="@string/miami"
         app:layout_constraintEnd_toEndOf="@id/question_tv"
         app:layout_constraintStart_toStartOf="@id/question_tv"
         app:layout_constraintTop_toBottomOf="@id/question_tv" />
@@ -30,7 +31,8 @@
         android:id="@+id/orlando_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Orlando"
+        android:enabled="false"
+        android:text="@string/orlando"
         app:layout_constraintEnd_toEndOf="@+id/miami_btn"
         app:layout_constraintStart_toStartOf="@+id/miami_btn"
         app:layout_constraintTop_toBottomOf="@+id/miami_btn" />
@@ -39,7 +41,8 @@
         android:id="@+id/tallahassee_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tallahassee"
+        android:enabled="false"
+        android:text="@string/tallahassee"
         app:layout_constraintEnd_toEndOf="@+id/orlando_btn"
         app:layout_constraintStart_toStartOf="@+id/orlando_btn"
         app:layout_constraintTop_toBottomOf="@+id/orlando_btn" />

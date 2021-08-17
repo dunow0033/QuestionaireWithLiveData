@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.2"
-        android:text="11"
+        android:text="@string/_0"
          />
 
     <androidx.fragment.app.FragmentContainerView

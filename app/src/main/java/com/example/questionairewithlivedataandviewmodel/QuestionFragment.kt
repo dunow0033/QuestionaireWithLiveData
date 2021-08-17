@@ -1,6 +1,7 @@
 package com.example.questionairewithlivedataandviewmodel
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -17,11 +18,13 @@ class QuestionFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        Log.d("test", "onCreateVew from QuestionFragment")
         _binding = FragmentQuestionBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onDestroy() {
+        Log.d("test", "onDestroy from QuestionFragment")
         super.onDestroy()
         _binding = null
     }

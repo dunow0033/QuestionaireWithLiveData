@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Questionaire with live data and viewmodel</string>
+    <string name="_0">0</string>
+    <string name="miami">Miami</string>
+    <string name="orlando">Orlando</string>
+    <string name="tallahassee">Tallahassee</string>
+    <string name="what_is_the_capital_of_florida">What is the capital of Florida?</string>
 </resources>
