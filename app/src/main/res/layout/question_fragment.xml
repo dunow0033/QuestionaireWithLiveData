@@ -6,6 +6,7 @@
 
 
     <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/question_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="What is the capitol of Florida?"
@@ -17,4 +18,34 @@
         app:layout_constraintVertical_bias="0.2"
         />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/miami_btn"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Miami"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@id/question_tv"
+        app:layout_constraintStart_toStartOf="@id/question_tv"
+        app:layout_constraintTop_toBottomOf="@id/question_tv"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/orlando_btn"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Orlando"
+        app:layout_constraintEnd_toEndOf="@+id/miami_btn"
+        app:layout_constraintStart_toStartOf="@+id/miami_btn"
+        app:layout_constraintTop_toBottomOf="@+id/miami_btn"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tampa_bay_btn"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Tampa Bay"
+        app:layout_constraintEnd_toEndOf="@+id/orlando_btn"
+        app:layout_constraintStart_toStartOf="@+id/orlando_btn"
+        app:layout_constraintTop_toBottomOf="@+id/orlando_btn"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
