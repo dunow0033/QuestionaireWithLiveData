@@ -8,6 +8,6 @@
     <fragment
         android:id="@+id/question_fragment"
         android:name="com.example.questionairewithlivedataandviewmodel.QuestionFragment"
-        tools:layout="@layout/question_fragment" />
+        tools:layout="@layout/fragment_question" />
 
 </navigation>
