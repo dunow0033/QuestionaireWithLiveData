@@ -9,6 +9,5 @@ class MainActivity : AppCompatActivity() {
         Log.d("test", "onCreate starts from MainActivity")
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
     }
 }
